@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    #wrapper {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #menu {
+        display: flex;
+        height: 50px;
+        width: 1400px;
+        flex-direction: row;
+    }
+    
+    .menu-left {
+        display: flex;
+        width: 30%;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .menu-picture {
+        display: flex;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .menu-right {
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .txtBanner2 {
+        position: absolute;
+        width: 300px;
+        top: 300px;
+        left: 150px;
+        font-size: 15px;
+    }
+    
+    .txtBaner1 {
+        position: absolute;
+        top: 200px;
+        left: 150px;
+        font-size: 50px;
+    }
+    
+    .btnBanner3 {
+        position: absolute;
+        width: 180px;
+        height: 50px;
+        top: 400px;
+        left: 150px;
+        font-size: 25px;
+        background-color: #449e7a;
+        border-radius: 10px;
+        color: white;
+        border: 0px;
+    }
+    
+    .content {
+        display: flex;
+        width: 1400px;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    
+    .content-products-header {
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .content-products {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .content-products-header {
+        display: flex;
+        text-align: center;
+    }
+    
+    .content-products-heading {
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .content-products-header1,
+    .content-products-header2 {
+        display: flex;
+        width: 150px;
+        height: 40px;
+        text-align: center;
+        border-radius: 10px;
+        border: 0px;
+    }
+    
+    .content-products-header1 {
+        background-color: #449e7a;
+        color: white;
+    }
+</style>
+
+<body>
+    <div id="wrapper">
+        <div id="menu">
+            <div class="menu-left">
+                <div class="shop-item">Shop</div>
+                <div class="offer-item">Offers</div>
+                <div class="ourStory-item">Our Story</div>
+                <div class="blog-item">Blog</div>
+            </div>
+            <div class="menu-picture">
+                <img src="logo.png" alt="">
+            </div>
+            <div class="menu-right">
+                <input type="text" size="20" maxlength="20">
+                <img src="cart.png" alt="">
+                <img src="user.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="banner">
+            <div>
+
+            </div>
+            <img src="banner.png" alt="">
+            <h2 class="txtBaner1">Gift for your Skin</h2>
+            <p class="txtBanner2">Aliqiup fugiant ipsum nostrud ex et eu incididunt quis minim dolore excepteur voluptate</p>
+            <input class="btnBanner3" type="button" value="Shop Now">
+
+
+
+        </div>
+
+        <div class="content">
+            <div class="content-products">
+                <h2 class="content-products-heading">Our products</h2>
+                <div class="content-products-header">
+                    <div> <input class="content-products-header1" type="button" value="Best-sellers"> </div>
+                    <div> <input class="content-products-header2" type="button" value="Best-sellers"> </div>
+                </div>
+
+                <div class="content-products-item">
+
+                </div>
+
+            </div>
+
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+
+</html>
